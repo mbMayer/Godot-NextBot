@@ -1,0 +1,2 @@
+# Godot-NextBot
+Simple NextBot
