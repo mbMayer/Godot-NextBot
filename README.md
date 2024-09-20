@@ -26,4 +26,4 @@
 6. In the Bot inspector, chose Audio. Bot will autoplay this Audio
 <br>
 7. Call Player node as "Player"
-<img src="https://github.com/mbMayer/Godot-NextBbot/blob/main/gifpresent.gif" alt="Green - Player"/></h1>
+<img src="https://github.com/mbMayer/Godot-NextBot/blob/main/gifpresent.gif"/></h1>
