@@ -17,7 +17,7 @@
 <br>
 2. In the Bot inspector, chose Image for Bot's Face
 <br>
-3. In the Bot inspector, chose Nevigation node of your scene (bake navigation ofcourse)
+3. In the Bot inspector, chose Navigation node of your scene (bake navigation ofcourse)
 <br>
 4. Add the Position3D node to your scene, rename it like P1, P2, ect (many as you want)
 <br>
