@@ -1,27 +1,27 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://NextBot.gd" type="Script" id=1]
-[ext_resource path="res://liminesque.mp3" type="AudioStream" id=2]
-
-[sub_resource type="AudioStreamMP3" id=3]
+[ext_resource path="res://icon.png" type="Texture" id=2]
 
 [sub_resource type="SphereShape" id=1]
 radius = 0.75
 
 [node name="NextBot" type="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.51055, 0 )
 script = ExtResource( 1 )
-audio_source = SubResource( 3 )
+face_sprite = ExtResource( 2 )
 forget = 1.5
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
 shape = SubResource( 1 )
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.616, 0 )
 billboard = 2
 alpha_cut = 2
+texture = ExtResource( 2 )
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
-stream = ExtResource( 2 )
 unit_size = 25.0
 max_distance = 32.0
 attenuation_filter_cutoff_hz = 2500.0
