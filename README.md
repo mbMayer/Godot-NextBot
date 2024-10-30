@@ -12,7 +12,7 @@
 <br>
 - Distance Audio
 <br>
-<h2>FAQ </h2>
+<h2>How to use </h2>
 1. Add the Bot to the scene
 <br>
 2. In the Bot inspector, chose Image for Bot's Face
